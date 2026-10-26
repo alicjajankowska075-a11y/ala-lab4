@@ -1,11 +1,66 @@
-// ala lab4.cpp : This file contains the 'main' function. Program execution begins and ends there.
+﻿// ala lab4.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
+using namespace std;
+
+void przywitanie(string imie)
+{
+    cout << "Czesc " << imie << endl;
+}
+void tabliczka()
+{
+    
+    for (int i = 1; i <= 10; i++)
+    {
+        for (int j = 1; j <= 10; j++)
+        {
+            cout << i * j << "\t";
+        }
+        cout << endl;
+    }
+   
+}
+void wieksza(int a, int b);
+{ 
+    if (a > b) {
+        cout << a<<" jest wieksza liczba" << endl;
+    }
+    else
+    {
+        cout << b<<"jest wieksza liczba" << endl;
+    }
+
+    int druga(int a, int b)
+    {
+        if (a > b)
+            return a;
+        else
+            return b;
+    }
+
+}
 
 int main()
-{
-    std::cout << "Hello World!\n";
+
+{    /* zad 1.
+
+    string imie;
+    cout << "podaj imie: ";
+    cin >> imie;
+    przywitanie (imie);
+    */
+
+
+    /*zad 2. 
+    tabliczka();
+    */
+    int a, b;
+    cin >> a;
+    cin >> b;
+    wieksza(a, b);
+    cout << druga(a, b) << endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
