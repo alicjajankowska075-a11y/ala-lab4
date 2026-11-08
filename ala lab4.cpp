@@ -162,13 +162,7 @@ int main()
     a = 10;
     b = 20;
     cout << pitagoras(a, b);*/
-   /* int tablica[100];
-    for (int i = 40;i <= 99;i++)
-    {
-        tablica[i] = i;
-        cout << i << endl;
-    }*/
-    //zad 10
+   
     
     
    
